@@ -1,0 +1,17 @@
+channels:
+  - salilab
+  - speleo3
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pip
+  - dssp
+  - scipy
+  - pyqt
+  - pandas
+  - biopython
+  - ipympl
+  - ipywidgets
+  - pip:
+    - matplotlib

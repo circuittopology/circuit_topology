@@ -1,0 +1,145 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    RTPSDKPVAHVVANPQAEGQLQWLNDRANALLANGVELRDNQLVVPSEGL   50          ~~~~
+STR              EEEEE TTTTTTT   TTTTTTT BTTTTEETTTTEEE   EE               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   YLIYSQVLFKGQGCPSTHVLLTHTISRIAVSYQTKVNLLSAIKSPCQRET  100          ~~~~
+STR       EEEEEEEEEEEE TTTT   EEEEEEEETTTTT  EEEEEEEEB TTTT                ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  PEGAEAKPWYEPIYLGGVFQLEKGDRLSAEINRPDYLDFAESGQVYFGII  150          ~~~~
+STR       TTTTTTTEEEEEEEEEEEEEETTTEEEEEEETTGGGB   TTTT EEEEE               ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+SEQ  151  AL                                                  152          ~~~~
+STR       E                                                                ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod B                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    RTPSDKPVAHVVANPQAEGQLQWLNDRANALLANGVELRDNQLVVPSEGL   50          ~~~~
+STR       TTTT   EEEEEETTTTTTT  EE  TTTTEEETTTEETTTTEEE   EE               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   YLIYSQVLFKGQGCPSTHVLLTHTISRIAVSYQTKVNLLSAIKSPCQRET  100          ~~~~
+STR       EE  EEEEEEEE        EEEEEEEETTTTT EEEEEEEEEB                     ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  PEGAEAKPWYEPIYLGGVFQLEKGDRLSAEINRPDYLDFAESGQVYFGII  150          ~~~~
+STR       TTTTT  EEEEEEEE  EEEETTTEEEEEEETTTTTB   TTTTTEEEEE               ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+SEQ  151  AL                                                  152          ~~~~
+STR       E                                                                ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod C                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    RTPSDKPVAHVVANPQAEGQLQWLNDRANALLANGVELRDNQLVVPSEGL   50          ~~~~
+STR              EEEEEEETTTTTT EEE  TTTTEEETTT EETTEEEE   EE               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   YLIYSQVLFKGQGCPSTHVLLTHTISRIAVSYQTKVNLLSAIKSPCQRET  100          ~~~~
+STR       EEEEEEEEEEEE  TTTT  EEEEEEEETTTTT EEEEEEEEE  TTTT                ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  PEGAEAKPWYEPIYLGGVFQLEKGDRLSAEINRPDYLDFAESGQVYFGII  150          ~~~~
+STR        TTTT  EEEEEEEEEEEEEETTTEEEEEEETTTTTBTTTTTTTTEEEEE               ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+SEQ  151  AL                                                  152          ~~~~
+STR       E                                                                ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  310Helix     PRO   139 A      TYR    141 A                            ~~~~
+LOC  Strand       VAL    13 A      VAL     17 A                            ~~~~
+LOC  Strand       GLU    42 A      LEU     43 A                            ~~~~
+LOC  Strand       LEU    48 A      VAL     50 A                            ~~~~
+LOC  Strand       GLY    54 A      GLN     67 A                            ~~~~
+LOC  Strand       LEU    76 A      ILE     83 A                            ~~~~
+LOC  Strand       VAL    91 A      LYS     98 A                            ~~~~
+LOC  Strand       PRO   113 A      LEU    126 A                            ~~~~
+LOC  Strand       ASP   130 A      ILE    136 A                            ~~~~
+LOC  Strand       TYR   151 A      ALA    156 A                            ~~~~
+LOC  Strand       VAL    13 B      ALA     18 B                            ~~~~
+LOC  Strand       TRP    28 B      LEU     29 B                            ~~~~
+LOC  Strand       LEU    36 B      ALA     38 B                            ~~~~
+LOC  Strand       GLU    42 B      LEU     43 B                            ~~~~
+LOC  Strand       LEU    48 B      VAL     50 B                            ~~~~
+LOC  Strand       GLY    54 B      LEU     57 B                            ~~~~
+LOC  Strand       SER    60 B      GLN     67 B                            ~~~~
+LOC  Strand       LEU    76 B      ILE     83 B                            ~~~~
+LOC  Strand       LYS    90 B      LYS     98 B                            ~~~~
+LOC  Strand       PRO   113 B      LEU    120 B                            ~~~~
+LOC  Strand       VAL   123 B      LEU    126 B                            ~~~~
+LOC  Strand       ASP   130 B      ILE    136 B                            ~~~~
+LOC  Strand       TYR   151 B      ALA    156 B                            ~~~~
+LOC  Strand       VAL    13 C      ASN     19 C                            ~~~~
+LOC  Strand       GLN    27 C      LEU     29 C                            ~~~~
+LOC  Strand       LEU    36 C      ALA     38 C                            ~~~~
+LOC  Strand       LEU    43 C      ARG     44 C                            ~~~~
+LOC  Strand       GLN    47 C      VAL     50 C                            ~~~~
+LOC  Strand       GLY    54 C      GLN     67 C                            ~~~~
+LOC  Strand       LEU    76 C      ILE     83 C                            ~~~~
+LOC  Strand       LYS    90 C      LYS     98 C                            ~~~~
+LOC  Strand       PRO   113 C      LEU    126 C                            ~~~~
+LOC  Strand       ASP   130 C      ILE    136 C                            ~~~~
+LOC  Strand       TYR   151 C      ALA    156 C                            ~~~~
+LOC  TurnIV       ASN    19 A      ALA     22 A                            ~~~~
+LOC  TurnIV       ALA    22 A      GLN     25 A                            ~~~~
+LOC  TurnIV       LEU    29 A      ARG     32 A                            ~~~~
+LOC  TurnII'      ARG    32 A      ALA     35 A                            ~~~~
+LOC  TurnIV       ALA    38 A      VAL     41 A                            ~~~~
+LOC  TurnIV       LEU    43 A      ASN     46 A                            ~~~~
+LOC  TurnIV       ARG    44 A      GLN     47 A                            ~~~~
+LOC  TurnIV       CYS    69 A      THR     72 A                            ~~~~
+LOC  TurnIV       ALA    84 A      TYR     87 A                            ~~~~
+LOC  TurnIV       VAL    85 A      GLN     88 A                            ~~~~
+LOC  TurnIV       ASN    92 A      SER     95 A                            ~~~~
+LOC  TurnIV       CYS   101 A      GLU    104 A                            ~~~~
+LOC  TurnI        PRO   106 A      ALA    109 A                            ~~~~
+LOC  TurnIV       GLU   107 A      GLU    110 A                            ~~~~
+LOC  TurnII       ALA   109 A      LYS    112 A                            ~~~~
+LOC  TurnII       GLU   127 A      ASP    130 A                            ~~~~
+LOC  TurnIV       ILE   136 A      PRO    139 A                            ~~~~
+LOC  TurnIV       GLU   146 A      GLN    149 A                            ~~~~
+LOC  TurnIV       ARG     6 B      SER      9 B                            ~~~~
+LOC  TurnIV       ASN    19 B      ALA     22 B                            ~~~~
+LOC  TurnIV       ALA    22 B      GLN     25 B                            ~~~~
+LOC  TurnIV       ARG    32 B      ALA     35 B                            ~~~~
+LOC  TurnIV       ALA    38 B      VAL     41 B                            ~~~~
+LOC  TurnIV       LEU    43 B      ASN     46 B                            ~~~~
+LOC  TurnIV       ARG    44 B      GLN     47 B                            ~~~~
+LOC  TurnIV       ALA    84 B      TYR     87 B                            ~~~~
+LOC  TurnIV       VAL    85 B      GLN     88 B                            ~~~~
+LOC  TurnIV       PRO   106 B      ALA    109 B                            ~~~~
+LOC  TurnIV       GLU   107 B      GLU    110 B                            ~~~~
+LOC  TurnII       GLU   127 B      ASP    130 B                            ~~~~
+LOC  TurnVIII     ILE   136 B      PRO    139 B                            ~~~~
+LOC  TurnI        ARG   138 B      TYR    141 B                            ~~~~
+LOC  TurnI        PRO   139 B      LEU    142 B                            ~~~~
+LOC  TurnIV       GLU   146 B      GLN    149 B                            ~~~~
+LOC  TurnVIII     GLY   148 B      TYR    151 B                            ~~~~
+LOC  TurnIV       ASN    19 C      ALA     22 C                            ~~~~
+LOC  TurnIV       ALA    22 C      GLN     25 C                            ~~~~
+LOC  TurnIV       ARG    32 C      ALA     35 C                            ~~~~
+LOC  TurnI'       ALA    38 C      VAL     41 C                            ~~~~
+LOC  TurnIV       LEU    43 C      ASN     46 C                            ~~~~
+LOC  TurnI'       ARG    44 C      GLN     47 C                            ~~~~
+LOC  TurnIV       PRO    70 C      HIS     73 C                            ~~~~
+LOC  TurnIV       ALA    84 C      TYR     87 C                            ~~~~
+LOC  TurnIV       VAL    85 C      GLN     88 C                            ~~~~
+LOC  TurnIV       CYS   101 C      GLU    104 C                            ~~~~
+LOC  TurnIV       GLU   107 C      GLU    110 C                            ~~~~
+LOC  TurnII       GLU   127 C      ASP    130 C                            ~~~~
+LOC  TurnIV       ILE   136 C      PRO    139 C                            ~~~~
+LOC  TurnI        ARG   138 C      TYR    141 C                            ~~~~
+LOC  TurnIV       PRO   139 C      LEU    142 C                            ~~~~
+LOC  TurnIV       ASP   143 C      GLU    146 C                            ~~~~
+LOC  TurnIV       GLU   146 C      GLN    149 C                            ~~~~
+LOC  TurnVIII     GLY   148 C      TYR    151 C                            ~~~~

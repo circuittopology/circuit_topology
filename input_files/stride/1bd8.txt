@@ -1,0 +1,233 @@
+REM  --------------------------------------------------------------------  1BD8
+REM                                                                        1BD8
+REM  STRIDE: Knowledge-based secondary structure assignment                1BD8
+REM  Please cite: D.Frishman & P.Argos, Proteins XX, XXX-XXX, 1995         1BD8
+REM                                                                        1BD8
+REM  Residue accessible surface area calculation                           1BD8
+REM  Please cite: F.Eisenhaber & P.Argos, J.Comp.Chem. 14, 1272-1280, 1993 1BD8
+REM               F.Eisenhaber et al., J.Comp.Chem., 1994, submitted       1BD8
+REM                                                                        1BD8
+REM  ------------------------ General information -----------------------  1BD8
+REM                                                                        1BD8
+HDR  TUMOR SUPPRESSOR                        12-MAY-98   1BD8              1BD8
+CMP  MOL_ID: 1;                                                            1BD8
+CMP   MOLECULE: P19INK4D CDK4/6 INHIBITOR;                                 1BD8
+CMP   CHAIN: A;                                                            1BD8
+CMP   ENGINEERED: YES                                                      1BD8
+SRC  MOL_ID: 1;                                                            1BD8
+SRC   ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   1BD8
+SRC   ORGANISM_COMMON: HUMAN;                                              1BD8
+SRC   CELL_LINE: BL21;                                                     1BD8
+SRC   CELLULAR_LOCATION: CYTOPLASM;                                        1BD8
+SRC   EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 1BD8
+SRC   EXPRESSION_SYSTEM_STRAIN: BL21 (DE3);                                1BD8
+SRC   EXPRESSION_SYSTEM_CELLULAR_LOCATION: CYTOPLASM;                      1BD8
+SRC   EXPRESSION_SYSTEM_PLASMID: PET-15B                                   1BD8
+AUT  R.BAUMGARTNER,C.FERNANDEZ-CATALAN,A.WINOTO,R.HUBER,R.ENGH,            1BD8
+AUT   T.A.HOLAK                                                            1BD8
+REM                                                                        1BD8
+REM  -------------------- Secondary structure summary -------------------  1BD8
+REM                                                                        1BD8
+CHN  /webclu/data/stride/pdb/pdb1bd8.ent A                                 1BD8
+REM                                                                        1BD8
+REM                .         .         .         .         .               1BD8
+SEQ  1    RAGDRLSGAAARGDVQEVRRLLHRELVHPDALNRFGKTALQVMMFGSTAI   50          1BD8
+STR       HHHHHHHHHHHH  HHHHHHHHHH   TTTT BTTTB GGG  TTTTHHH               1BD8
+REM                                                                        1BD8
+REM                .         .         .         .         .               1BD8
+SEQ  51   ALELLKQGASPNVQDTSGTSPVHDAARTGFLDTLKVLVEHGADVNVPDGT  100          1BD8
+STR       HHHHHHH  TTTT TTTT  HHHHHHHHTTHHHHHHHHHH  TTTT TTT               1BD8
+REM                                                                        1BD8
+REM                .         .         .         .         .               1BD8
+SEQ  101  GALPIHLAVQEGHTAVVSFLAAESDLHRRDARGLTPLELALQRGAQDLVD  150          1BD8
+STR       T  HHHHHHHH  HHHHHHHHTTTTTTT TTTT  HHHHHHHHTTHHHHH               1BD8
+REM                                                                        1BD8
+REM                                                                        1BD8
+SEQ  151  ILQGHM                                              156          1BD8
+STR       HHHH                                                             1BD8
+REM                                                                        1BD8
+REM                                                                        1BD8
+REM                                                                        1BD8
+LOC  AlphaHelix   ARG     7 A      ARG     18 A                            1BD8
+LOC  AlphaHelix   VAL    21 A      ARG     30 A                            1BD8
+LOC  AlphaHelix   THR    54 A      GLN     63 A                            1BD8
+LOC  AlphaHelix   PRO    77 A      THR     84 A                            1BD8
+LOC  AlphaHelix   LEU    87 A      HIS     96 A                            1BD8
+LOC  AlphaHelix   PRO   110 A      GLU    117 A                            1BD8
+LOC  AlphaHelix   THR   120 A      ALA    127 A                            1BD8
+LOC  AlphaHelix   PRO   142 A      ARG    149 A                            1BD8
+LOC  AlphaHelix   GLN   152 A      GLY    160 A                            1BD8
+LOC  310Helix     ALA    45 A      GLN     47 A                            1BD8
+LOC  TurnI        HIS    34 A      ALA     37 A                            1BD8
+LOC  TurnI        ASN    39 A      GLY     42 A                            1BD8
+LOC  TurnI        MET    50 A      SER     53 A                            1BD8
+LOC  TurnIV       PHE    51 A      THR     54 A                            1BD8
+LOC  TurnI        SER    66 A      VAL     69 A                            1BD8
+LOC  TurnI        ASP    71 A      GLY     74 A                            1BD8
+LOC  TurnIV       ASP    99 A      VAL    102 A                            1BD8
+LOC  TurnI        ASP   104 A      GLY    107 A                            1BD8
+LOC  TurnIV       ALA   127 A      SER    130 A                            1BD8
+LOC  TurnI        ASP   131 A      ARG    134 A                            1BD8
+LOC  TurnI        ASP   136 A      GLY    139 A                            1BD8
+LOC  GammaInv     GLY    85 A      LEU     87 A                            1BD8
+LOC  GammaInv     GLY   150 A      GLN    152 A                            1BD8
+REM                                                                        1BD8
+REM  --------------- Detailed secondary structure assignment-------------  1BD8
+REM                                                                        1BD8
+REM  |---Residue---|    |--Structure--|   |-Phi-|   |-Psi-|  |-Area-|      1BD8
+ASG  ARG A    7    1    H    AlphaHelix    360.00    -19.33     214.7      1BD8
+ASG  ALA A    8    2    H    AlphaHelix    -60.21    -46.80      33.3      1BD8
+ASG  GLY A    9    3    H    AlphaHelix    -58.35    -36.85       4.9      1BD8
+ASG  ASP A   10    4    H    AlphaHelix    -68.63    -42.03      32.0      1BD8
+ASG  ARG A   11    5    H    AlphaHelix    -64.78    -43.29      66.3      1BD8
+ASG  LEU A   12    6    H    AlphaHelix    -68.40    -45.21       0.4      1BD8
+ASG  SER A   13    7    H    AlphaHelix    -56.72    -45.58       5.4      1BD8
+ASG  GLY A   14    8    H    AlphaHelix    -58.49    -46.23      29.0      1BD8
+ASG  ALA A   15    9    H    AlphaHelix    -64.07    -41.49       0.0      1BD8
+ASG  ALA A   16   10    H    AlphaHelix    -66.21    -39.81       0.0      1BD8
+ASG  ALA A   17   11    H    AlphaHelix    -68.79    -29.02      46.1      1BD8
+ASG  ARG A   18   12    H    AlphaHelix    -80.71    -13.81     147.4      1BD8
+ASG  GLY A   19   13    C          Coil     79.21     21.67      18.6      1BD8
+ASG  ASP A   20   14    C          Coil    -82.57     90.18      52.8      1BD8
+ASG  VAL A   21   15    H    AlphaHelix    -64.19    -39.19      38.0      1BD8
+ASG  GLN A   22   16    H    AlphaHelix    -65.38    -39.53     161.4      1BD8
+ASG  GLU A   23   17    H    AlphaHelix    -66.99    -40.27      48.7      1BD8
+ASG  VAL A   24   18    H    AlphaHelix    -60.67    -45.65       0.2      1BD8
+ASG  ARG A   25   19    H    AlphaHelix    -61.88    -41.82     111.1      1BD8
+ASG  ARG A   26   20    H    AlphaHelix    -58.92    -45.70     157.6      1BD8
+ASG  LEU A   27   21    H    AlphaHelix    -68.02    -41.98       2.0      1BD8
+ASG  LEU A   28   22    H    AlphaHelix    -73.20    -39.55       0.6      1BD8
+ASG  HIS A   29   23    H    AlphaHelix   -105.16    -22.72      85.4      1BD8
+ASG  ARG A   30   24    H    AlphaHelix   -104.50    -50.20     205.3      1BD8
+ASG  GLU A   31   25    C          Coil    -78.64    -22.04      93.8      1BD8
+ASG  LEU A   32   26    C          Coil     69.58     37.96     128.3      1BD8
+ASG  VAL A   33   27    C          Coil    -68.58    138.50      12.9      1BD8
+ASG  HIS A   34   28    T          Turn    -77.39    140.07      99.6      1BD8
+ASG  PRO A   35   29    T          Turn    -63.54    -21.12       1.3      1BD8
+ASG  ASP A   36   30    T          Turn    -88.75     11.46      57.1      1BD8
+ASG  ALA A   37   31    T          Turn    -55.07    127.14      24.9      1BD8
+ASG  LEU A   38   32    C          Coil    -81.42    138.31     111.9      1BD8
+ASG  ASN A   39   33    B        Bridge    -78.71    177.73      22.6      1BD8
+ASG  ARG A   40   34    T          Turn    -63.89    -20.55     180.9      1BD8
+ASG  PHE A   41   35    T          Turn    -97.73     16.86     166.4      1BD8
+ASG  GLY A   42   36    T          Turn     74.24     22.75      44.6      1BD8
+ASG  LYS A   43   37    B        Bridge   -110.08    159.09      74.6      1BD8
+ASG  THR A   44   38    C          Coil    -97.92    162.48       8.6      1BD8
+ASG  ALA A   45   39    G      310Helix    -59.47    -35.82       0.2      1BD8
+ASG  LEU A   46   40    G      310Helix    -63.23    -30.86       0.8      1BD8
+ASG  GLN A   47   41    G      310Helix    -70.79    -30.70      24.8      1BD8
+ASG  VAL A   48   42    C          Coil   -114.80      8.71      41.6      1BD8
+ASG  MET A   49   43    C          Coil    -66.74    159.50       5.1      1BD8
+ASG  MET A   50   44    T          Turn    -69.77    105.74      97.5      1BD8
+ASG  PHE A   51   45    T          Turn    -67.46    -11.27      24.3      1BD8
+ASG  GLY A   52   46    T          Turn    -68.11    -25.34      40.5      1BD8
+ASG  SER A   53   47    T          Turn    -83.48     85.18      21.7      1BD8
+ASG  THR A   54   48    H    AlphaHelix    -60.33    -38.35      41.0      1BD8
+ASG  ALA A   55   49    H    AlphaHelix    -58.67    -40.76      32.4      1BD8
+ASG  ILE A   56   50    H    AlphaHelix    -64.57    -42.96       0.0      1BD8
+ASG  ALA A   57   51    H    AlphaHelix    -61.60    -45.67       0.0      1BD8
+ASG  LEU A   58   52    H    AlphaHelix    -70.14    -35.99      58.7      1BD8
+ASG  GLU A   59   53    H    AlphaHelix    -60.00    -46.71      27.3      1BD8
+ASG  LEU A   60   54    H    AlphaHelix    -61.25    -44.01       0.0      1BD8
+ASG  LEU A   61   55    H    AlphaHelix    -67.15    -37.74      13.2      1BD8
+ASG  LYS A   62   56    H    AlphaHelix    -65.97    -29.44     144.4      1BD8
+ASG  GLN A   63   57    H    AlphaHelix    -87.12      0.50      87.6      1BD8
+ASG  GLY A   64   58    C          Coil    113.34     12.33      40.7      1BD8
+ASG  ALA A   65   59    C          Coil    -59.21    145.79       7.7      1BD8
+ASG  SER A   66   60    T          Turn    -88.50    123.40      51.3      1BD8
+ASG  PRO A   67   61    T          Turn    -74.87    -25.20      22.9      1BD8
+ASG  ASN A   68   62    T          Turn    -92.39     13.60      80.0      1BD8
+ASG  VAL A   69   63    T          Turn    -54.23    142.08      32.4      1BD8
+ASG  GLN A   70   64    C          Coil   -142.25    141.43      89.7      1BD8
+ASG  ASP A   71   65    T          Turn    -89.25   -172.06      53.8      1BD8
+ASG  THR A   72   66    T          Turn    -81.19     -3.84     157.1      1BD8
+ASG  SER A   73   67    T          Turn    -90.32     -0.09      57.8      1BD8
+ASG  GLY A   74   68    T          Turn     79.99     14.89      11.9      1BD8
+ASG  THR A   75   69    C          Coil    -90.12    128.10      26.0      1BD8
+ASG  SER A   76   70    C          Coil   -117.80    174.99       9.4      1BD8
+ASG  PRO A   77   71    H    AlphaHelix    -57.61    -36.20       1.0      1BD8
+ASG  VAL A   78   72    H    AlphaHelix    -63.38    -34.94       4.3      1BD8
+ASG  HIS A   79   73    H    AlphaHelix    -63.70    -50.05       1.4      1BD8
+ASG  ASP A   80   74    H    AlphaHelix    -65.16    -38.04      37.3      1BD8
+ASG  ALA A   81   75    H    AlphaHelix    -66.93    -37.29       0.0      1BD8
+ASG  ALA A   82   76    H    AlphaHelix    -70.06    -43.16       0.0      1BD8
+ASG  ARG A   83   77    H    AlphaHelix    -63.99    -35.14      98.4      1BD8
+ASG  THR A   84   78    H    AlphaHelix    -95.07     -0.52      51.9      1BD8
+ASG  GLY A   85   79    T          Turn     82.75     17.94      24.4      1BD8
+ASG  PHE A   86   80    T          Turn    -88.52     82.37      87.1      1BD8
+ASG  LEU A   87   81    H    AlphaHelix    -65.06    -38.27      34.7      1BD8
+ASG  ASP A   88   82    H    AlphaHelix    -66.21    -36.10     107.1      1BD8
+ASG  THR A   89   83    H    AlphaHelix    -72.26    -39.78       0.8      1BD8
+ASG  LEU A   90   84    H    AlphaHelix    -60.14    -44.06       0.0      1BD8
+ASG  LYS A   91   85    H    AlphaHelix    -58.37    -41.30      94.8      1BD8
+ASG  VAL A   92   86    H    AlphaHelix    -67.37    -37.08      16.2      1BD8
+ASG  LEU A   93   87    H    AlphaHelix    -62.44    -48.12       0.4      1BD8
+ASG  VAL A   94   88    H    AlphaHelix    -66.82    -40.18      34.2      1BD8
+ASG  GLU A   95   89    H    AlphaHelix    -57.84    -35.37     153.9      1BD8
+ASG  HIS A   96   90    H    AlphaHelix    -94.37     24.50      72.2      1BD8
+ASG  GLY A   97   91    C          Coil     95.52     12.75      48.4      1BD8
+ASG  ALA A   98   92    C          Coil    -74.42    132.74       8.9      1BD8
+ASG  ASP A   99   93    T          Turn    -79.03    127.54      77.2      1BD8
+ASG  VAL A  100   94    T          Turn   -100.52     11.76       9.2      1BD8
+ASG  ASN A  101   95    T          Turn   -108.57     13.52      39.2      1BD8
+ASG  VAL A  102   96    T          Turn    -95.62    125.11      47.7      1BD8
+ASG  PRO A  103   97    C          Coil    -80.96    150.93      65.2      1BD8
+ASG  ASP A  104   98    T          Turn    -83.95   -173.29      19.4      1BD8
+ASG  GLY A  105   99    T          Turn    -69.75    -11.07      67.1      1BD8
+ASG  THR A  106  100    T          Turn    -92.49     -1.90      77.9      1BD8
+ASG  GLY A  107  101    T          Turn     86.55      7.30      22.3      1BD8
+ASG  ALA A  108  102    C          Coil    -86.90    132.54       2.2      1BD8
+ASG  LEU A  109  103    C          Coil    -83.06    167.58       1.4      1BD8
+ASG  PRO A  110  104    H    AlphaHelix    -52.32    -38.06       0.2      1BD8
+ASG  ILE A  111  105    H    AlphaHelix    -65.69    -35.68       0.0      1BD8
+ASG  HIS A  112  106    H    AlphaHelix    -61.57    -43.32       2.1      1BD8
+ASG  LEU A  113  107    H    AlphaHelix    -61.44    -41.43      26.3      1BD8
+ASG  ALA A  114  108    H    AlphaHelix    -67.75    -33.95       0.0      1BD8
+ASG  VAL A  115  109    H    AlphaHelix    -66.42    -42.74       0.0      1BD8
+ASG  GLN A  116  110    H    AlphaHelix    -61.68    -40.65      98.1      1BD8
+ASG  GLU A  117  111    H    AlphaHelix    -87.38     -8.23     105.8      1BD8
+ASG  GLY A  118  112    C          Coil     84.31     23.94      38.2      1BD8
+ASG  HIS A  119  113    C          Coil    -85.54     87.32      55.1      1BD8
+ASG  THR A  120  114    H    AlphaHelix    -56.30    -45.60      70.5      1BD8
+ASG  ALA A  121  115    H    AlphaHelix    -64.97    -37.17      54.9      1BD8
+ASG  VAL A  122  116    H    AlphaHelix    -66.56    -44.42       2.6      1BD8
+ASG  VAL A  123  117    H    AlphaHelix    -57.62    -48.24       0.0      1BD8
+ASG  SER A  124  118    H    AlphaHelix    -54.17    -50.41      66.3      1BD8
+ASG  PHE A  125  119    H    AlphaHelix    -56.89    -48.35      51.1      1BD8
+ASG  LEU A  126  120    H    AlphaHelix    -77.70    -17.01       0.0      1BD8
+ASG  ALA A  127  121    H    AlphaHelix    -62.09    -36.12       2.5      1BD8
+ASG  ALA A  128  122    T          Turn   -103.06     80.84      63.6      1BD8
+ASG  GLU A  129  123    T          Turn    172.69    -29.59      84.1      1BD8
+ASG  SER A  130  124    T          Turn   -102.04    152.72      13.2      1BD8
+ASG  ASP A  131  125    T          Turn    -81.02     97.95      66.6      1BD8
+ASG  LEU A  132  126    T          Turn    -74.82     -0.09      27.1      1BD8
+ASG  HIS A  133  127    T          Turn    -95.13     -2.93     154.2      1BD8
+ASG  ARG A  134  128    T          Turn    -72.57    131.66     145.6      1BD8
+ASG  ARG A  135  129    C          Coil   -109.27    141.40     160.0      1BD8
+ASG  ASP A  136  130    T          Turn    -83.80   -166.20      30.1      1BD8
+ASG  ALA A  137  131    T          Turn    -60.38    -31.28      81.7      1BD8
+ASG  ARG A  138  132    T          Turn    -83.17      2.55     196.9      1BD8
+ASG  GLY A  139  133    T          Turn     79.83     20.29      35.1      1BD8
+ASG  LEU A  140  134    C          Coil   -106.83    140.40      23.5      1BD8
+ASG  THR A  141  135    C          Coil    -84.05    167.73      13.0      1BD8
+ASG  PRO A  142  136    H    AlphaHelix    -58.64    -39.53       0.0      1BD8
+ASG  LEU A  143  137    H    AlphaHelix    -64.97    -41.76      43.8      1BD8
+ASG  GLU A  144  138    H    AlphaHelix    -66.07    -40.87      77.2      1BD8
+ASG  LEU A  145  139    H    AlphaHelix    -59.32    -46.88       4.0      1BD8
+ASG  ALA A  146  140    H    AlphaHelix    -66.77    155.16       0.0      1BD8
+ASG  LEU A  147  141    H    AlphaHelix     95.70    -70.15      91.6      1BD8
+ASG  GLN A  148  142    H    AlphaHelix    -58.99    -44.73     141.5      1BD8
+ASG  ARG A  149  143    H    AlphaHelix    -77.89    -14.63     106.2      1BD8
+ASG  GLY A  150  144    T          Turn     80.32     22.32      44.7      1BD8
+ASG  ALA A  151  145    T          Turn    -86.54     77.79      22.8      1BD8
+ASG  GLN A  152  146    H    AlphaHelix    -60.63    -32.30     103.0      1BD8
+ASG  ASP A  153  147    H    AlphaHelix    -64.42    -34.90     115.2      1BD8
+ASG  LEU A  154  148    H    AlphaHelix    -75.02    -34.72       5.6      1BD8
+ASG  VAL A  155  149    H    AlphaHelix    -61.14    -49.44       3.2      1BD8
+ASG  ASP A  156  150    H    AlphaHelix    -51.49    -48.04      91.1      1BD8
+ASG  ILE A  157  151    H    AlphaHelix    -61.15    -52.32      40.4      1BD8
+ASG  LEU A  158  152    H    AlphaHelix    -63.79    -32.85       1.4      1BD8
+ASG  GLN A  159  153    H    AlphaHelix    -62.48    -29.03     112.1      1BD8
+ASG  GLY A  160  154    H    AlphaHelix    -65.57    -22.33      63.8      1BD8
+ASG  HIS A  161  155    C          Coil   -104.27     -5.52      77.7      1BD8
+ASG  MET A  162  156    C          Coil    128.97    360.00     167.7      1BD8

@@ -1,0 +1,22 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    VSQLFEEKAKAVNELPTKPSTDELLELYALYKQATVGDNDKEKPGIFNMK   50          ~~~~
+STR        HHHHHHHHHHHH TTTT  HHHHHHHHHHHHHHHH    TTT TTTTHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .                                   ~~~~
+SEQ  51   DRYKWEAWENLKGKSQEDAEKEYIALVDQLIAKYSS                 86          ~~~~
+STR       HHHHHHHHHHTTTHHHHHHHHHHHHHHHHHHHHHH                              ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   SER     2 A      ASN     13 A                            ~~~~
+LOC  AlphaHelix   THR    21 A      VAL     36 A                            ~~~~
+LOC  AlphaHelix   MET    49 A      ASN     60 A                            ~~~~
+LOC  AlphaHelix   LYS    64 A      SER     85 A                            ~~~~
+LOC  TurnIV       LEU    15 A      LYS     18 A                            ~~~~
+LOC  TurnI        GLY    45 A      ASN     48 A                            ~~~~
+LOC  TurnI        LEU    61 A      LYS     64 A                            ~~~~
+LOC  GammaInv     LYS    41 A      LYS     43 A                            ~~~~

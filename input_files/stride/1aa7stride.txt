@@ -1,0 +1,68 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod A                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    MSLLTEVETYVLSIIPSGPLKAEIAQRLEDVFAGKNTDLEVLMEWLKTRP   50          ~~~~
+STR         HHHHHHHHHHH     HHHHHHHHHHHHHHH     HHHHHHHHHHTT               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   ILSPLTKGILGFVFTLTVPSERGLQRRRFVQNALNGNGDPNNMDKAVKLY  100          ~~~~
+STR       TT HHHHHHHHHHHHHHTTTTTTT   HHHHHHH GGG HHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  RKLKREITFHGAKEISLSYSAGALASCMGLIYNRMGAVTTEVAFGLVCAT  150          ~~~~
+STR       HHHHH   HHHHHHHHH   HHHHHHHHHHHHHTTTT  HHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+SEQ  151  CEQIADSQ                                            158          ~~~~
+STR       HHHHHHH                                                          ~~~~
+REM                                                                        ~~~~
+CHN  /Users/duanemoes/Desktop/Desktop/RP1/Cod B                            ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  1    SLLTEVETYVLSIIPSGPLKAEIAQRLEDVFAGKNTDLEVLMEWLKTRPI   50          ~~~~
+STR        HHHHHHHHHHHH    HHHHHHHHHHHHHHHTTTT HHHHHHHHHHTTT               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  51   LSPLTKGILGFVFTLTVPSERGLQRRRFVQNALNGNGDPNNMDKAVKLYR  100          ~~~~
+STR       T HHHHHHHHHHHHHHTTTTTTT   HHHHHHHH    HHHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                .         .         .         .         .               ~~~~
+SEQ  101  KLKREITFHGAKEISLSYSAGALASCMGLIYNRMGAVTTEVAFGLVCATC  150          ~~~~
+STR       HHH    HHHHHHHHH   HHHHHHHHHHHHHTTTT  HHHHHHHHHHHH               ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+SEQ  151  EQIADSQ                                             157          ~~~~
+STR       HHHHHH                                                           ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+LOC  AlphaHelix   LEU     3 A      SER     13 A                            ~~~~
+LOC  AlphaHelix   PRO    19 A      ALA     33 A                            ~~~~
+LOC  AlphaHelix   LEU    39 A      THR     48 A                            ~~~~
+LOC  AlphaHelix   PRO    54 A      THR     67 A                            ~~~~
+LOC  AlphaHelix   ARG    78 A      LEU     84 A                            ~~~~
+LOC  AlphaHelix   PRO    90 A      ARG    105 A                            ~~~~
+LOC  AlphaHelix   PHE   109 A      LEU    117 A                            ~~~~
+LOC  AlphaHelix   ALA   121 A      ASN    133 A                            ~~~~
+LOC  AlphaHelix   THR   140 A      SER    157 A                            ~~~~
+LOC  AlphaHelix   LEU   203 B      ILE    214 B                            ~~~~
+LOC  AlphaHelix   PRO   219 B      ALA    233 B                            ~~~~
+LOC  AlphaHelix   LEU   239 B      THR    248 B                            ~~~~
+LOC  AlphaHelix   PRO   254 B      THR    267 B                            ~~~~
+LOC  AlphaHelix   ARG   278 B      ASN    285 B                            ~~~~
+LOC  AlphaHelix   PRO   290 B      LYS    304 B                            ~~~~
+LOC  AlphaHelix   PHE   309 B      LEU    317 B                            ~~~~
+LOC  AlphaHelix   ALA   321 B      ASN    333 B                            ~~~~
+LOC  AlphaHelix   THR   340 B      SER    357 B                            ~~~~
+LOC  310Helix     GLY    86 A      GLY     88 A                            ~~~~
+LOC  TurnIV       ARG    49 A      LEU     52 A                            ~~~~
+LOC  TurnVIII     VAL    68 A      GLU     71 A                            ~~~~
+LOC  TurnIV       GLU    71 A      LEU     74 A                            ~~~~
+LOC  TurnIV       ARG   134 A      ALA    137 A                            ~~~~
+LOC  TurnVIII     GLY   234 B      THR    237 B                            ~~~~
+LOC  TurnIV       ARG   249 B      LEU    252 B                            ~~~~
+LOC  TurnIV       VAL   268 B      GLU    271 B                            ~~~~
+LOC  TurnIV       GLU   271 B      LEU    274 B                            ~~~~
+LOC  TurnVIII     ARG   334 B      ALA    337 B                            ~~~~
