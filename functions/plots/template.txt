@@ -1,0 +1,15 @@
+show cartoon
+hide lines
+color gray30
+select interfaceMol1, chain $chain1 and resi  $res1
+select interfaceMol2, chain $chain1 and resi  $res2
+color slate, chain $chain1  
+show surface, chain $chain1  
+
+select Mol1+Mol2, interfaceMol1 | interfaceMol2 
+color blue, interfaceMol1
+color magenta, interfaceMol2
+show sticks, Mol1+Mol2
+set transparency, 0.35
+bg_color white
+zoom Mol1+Mol2

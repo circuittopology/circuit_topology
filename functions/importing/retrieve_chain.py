@@ -34,14 +34,24 @@ def retrieve_chain(input_file,chainid = 0):
     chainlist = model.get_list()
     #removes heteroresidues from protein
     residue_to_remove = []
+    chain_to_remove = []
     for chain in model:
         for residue in chain:
             if residue.id[0] != ' ':
                 residue_to_remove.append((chain.id, residue.id))
-
+                #REMOVES DNA MOLECULES AND UNKNOWN RESIDUES FROM MODEL
+            elif residue.get_resname() in ['DG','DA','DT','DC','DU','UNK','A','G','C','T']:
+                residue_to_remove.append((chain.id, residue.id))
 
     for residue in residue_to_remove:
         model[residue[0]].detach_child(residue[1])
+
+    for chain in model:
+        if len(chain.get_list()) == 0:
+            chain_to_remove.append(chain.id)
+
+    for chain in chain_to_remove:
+        model.detach_child(chain)
 
     if type(chainid) == int:
         chain = model.get_list()[chainid]

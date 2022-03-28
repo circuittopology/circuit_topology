@@ -28,8 +28,10 @@ def matrix_plot(mat,protid):
 
     #plot data
     pngmat = plt.imshow(mat,cmap=color,vmin = np.min(mat)-.5, vmax = np.max(mat)+.5)
+    ax.set_xlabel('Intramolecular contact #')
+    ax.set_ylabel('Intramolecular contact #')
     ax.set_title(protid)
-    ax.tick_params(labelleft = False,labelbottom = False,bottom = False,left= False)
+    ax.tick_params(labelleft = True,labelbottom = True,bottom = False,left= False)
     cbar = fig.colorbar(pngmat)
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
