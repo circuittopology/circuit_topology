@@ -9,5 +9,5 @@ from Bio.PDB import PDBList
 import sys
 
 def retrieve_cif(prot_id):
-    server = PDBList(server='ftp://ftp.wwpdb.org', pdb='input_files', obsolete_pdb=None ,verbose=True)
+    server = PDBList(server='https://files.wwpdb.org', pdb='input_files', obsolete_pdb=None ,verbose=True)
     server.retrieve_pdb_file(prot_id,pdir="input_files/cif",file_format='mmCif', overwrite=True,obsolete= False)
